@@ -218,5 +218,15 @@ print("=== ScheduleParser.parse の内部コード ===")
 
 try:
     print(inspect.getsource(ScheduleParser.parse))
+
+
+# 1ファイルの解析処理を確認
+print("=== _parse_single_file の内部コード ===")
+
+try:
+    print(inspect.getsource(ScheduleParser._parse_single_file))
+except Exception as e:
+    print("内部コードを取得できませんでした:", e)
+
 except Exception as e:
     print("内部コードを取得できませんでした:", e)
