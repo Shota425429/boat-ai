@@ -69,3 +69,55 @@ Path("data/debug_structure.json").write_text(
 )
 
 print("データ構造の確認用ファイルを保存しました")
+
+
+# レース別の出走表データを作成
+racer_map = {
+    racer.racer_number: racer
+    for racer in result.racers
+}
+
+race_list = []
+
+for race in result.races:
+    entries = []
+
+    for entry in result.entries:
+        if (
+            entry.venue_code == race.venue_code
+            and entry.race_date == race.race_date
+            and entry.race_number == race.race_number
+        ):
+            racer = racer_map.get(entry.racer_number)
+
+            entries.append({
+                "boat_number": entry.boat_number,
+                "racer_number": entry.racer_number,
+                "name": racer.name if racer else None,
+                "racer_class": racer.racer_class if racer else None,
+                "branch": racer.branch if racer else None,
+                "motor_number": entry.motor_number,
+            })
+
+    entries.sort(key=lambda x: x["boat_number"])
+
+    race_list.append({
+        "venue_code": race.venue_code,
+        "race_date": str(race.race_date),
+        "race_number": race.race_number,
+        "distance": race.distance,
+        "entries": entries,
+    })
+
+output_file = Path("data/races.json")
+output_file.write_text(
+    json.dumps(
+        race_list,
+        ensure_ascii=False,
+        indent=2,
+        default=str
+    ),
+    encoding="utf-8"
+)
+
+print(f"出走表データを保存しました：{len(race_list)}レース")
