@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-21",
+  "sample_race": {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "race_name": "",
+    "distance": 1800,
+    "weather": null,
+    "wind_direction": null,
+    "wind_speed": null,
+    "wave_height": null,
+    "water_temperature": null
+  },
+  "sample_racer": {
+    "racer_number": 3722,
+    "name": "西村秀樹",
+    "age": 56,
+    "weight": 55.0,
+    "racer_class": "B1",
+    "branch": "福岡"
+  },
+  "sample_entry": {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "racer_number": 3722,
+    "boat_number": 1,
+    "motor_number": null,
+    "boat_part": null,
+    "exhibition_time": null,
+    "entrance_position": null,
+    "st_timing": null,
+    "result_position": null,
+    "result_time": null
+  }
+}
