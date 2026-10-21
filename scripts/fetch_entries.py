@@ -1,3 +1,4 @@
+"""公式Bファイルから当日開催の全会場の出走表を取得する。"""
 
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -6,123 +7,90 @@ import json
 from boatrace_lzh import LzhDownloader, ScheduleParser
 
 JST = timezone(timedelta(hours=9))
-today = datetime.now(JST).date()
-
-# 公式番組表をダウンロード・解凍
-downloader = LzhDownloader(cache_dir="./cache")
-files = downloader.download(today, "schedule")
-
-# ダウンロードしたファイルを確認
-print("取得ファイル数:", len(files))
-
-for file in files:
-    print("取得ファイル:", file)
-
-
-if not files:
-    raise RuntimeError("本日の番組表を取得できませんでした")
-
-# 番組表を解析
-parser = ScheduleParser()
-result = parser.parse(files)
-
-if not result.races:
-    raise RuntimeError("番組表にレース情報がありません")
-
-# 取得状況をJSONで保存
-output = {
-    "date": today.isoformat(),
-    "updated_at": datetime.now(JST).isoformat(),
-    "race_count": len(result.races),
-    "racer_count": len(result.racers),
-    "entry_count": len(result.entries),
-    "status": "ok"
+VENUE_CODES = {
+    "桐生": "01", "戸田": "02", "江戸川": "03", "平和島": "04",
+    "多摩川": "05", "浜名湖": "06", "蒲郡": "07", "常滑": "08",
+    "津": "09", "三国": "10", "びわこ": "11", "住之江": "12",
+    "尼崎": "13", "鳴門": "14", "丸亀": "15", "児島": "16",
+    "宮島": "17", "徳山": "18", "下関": "19", "若松": "20",
+    "芦屋": "21", "福岡": "22", "唐津": "23", "大村": "24",
 }
 
 
-# 全国番組表を会場ごとに分割できるかテスト
-import re
-
-print("=== 会場分割テスト ===")
-
-for filename, content in files.items():
-    lines = content.splitlines()
-
-    starts = [
-        i for i, line in enumerate(lines)
-        if line.startswith("ボートレース")
-    ]
-
-    print("検出した会場数:", len(starts))
-
-    for n, start in enumerate(starts):
-        end = starts[n + 1] if n + 1 < len(starts) else len(lines)
-        venue_lines = lines[start:end]
-
-        print(
-            f"会場{n + 1}:",
-            venue_lines[0].strip(),
-            "行数:", len(venue_lines)
-        )
-
-Path("data").mkdir(exist_ok=True)
-Path("data/schedule_status.json").write_text(
-    json.dumps(output, ensure_ascii=False, indent=2),
-    encoding="utf-8"
-)
-
-print("番組表の取得・解析に成功しました")
-print(json.dumps(output, ensure_ascii=False, indent=2))
+def venue_from_header(header):
+    normalized = header.replace("\u3000", "").replace(" ", "")
+    for name, code in VENUE_CODES.items():
+        if normalized.startswith("ボートレース" + name):
+            return name, code
+    raise ValueError(f"会場名を判定できません: {header}")
 
 
-# 取得データの構造を調査
-from dataclasses import asdict, is_dataclass
-
-def inspect_record(record):
-    if is_dataclass(record) and not isinstance(record, type):
-        return asdict(record)
-    if hasattr(record, "model_dump"):
-        return record.model_dump(mode="json")
-    if isinstance(record, dict):
-        return record
-    if hasattr(record, "__dict__"):
-        return vars(record)
-    return str(record)
-
-debug_data = {
-    "date": today.isoformat(),
-    "sample_race": inspect_record(result.races[0]),
-    "sample_racer": inspect_record(result.racers[0]),
-    "sample_entry": inspect_record(result.entries[0]),
-}
-
-Path("data/debug_structure.json").write_text(
-    json.dumps(debug_data, ensure_ascii=False, indent=2, default=str),
-    encoding="utf-8"
-)
-
-print("データ構造の確認用ファイルを保存しました")
+def split_venues(files):
+    """Bファイルの会場見出しで区切り、解析用の独立したテキストにする。"""
+    venues = []
+    for filename, content in files.items():
+        lines = content.splitlines()
+        starts = [i for i, line in enumerate(lines)
+                  if line.startswith("ボートレース")]
+        if not starts:
+            raise RuntimeError(f"会場見出しが見つかりません: {filename}")
+        for index, start in enumerate(starts):
+            end = starts[index + 1] if index + 1 < len(starts) else len(lines)
+            block = lines[start:end]
+            name, code = venue_from_header(block[0])
+            venues.append((name, code, "\n".join(block)))
+    return venues
 
 
-# レース別の出走表データを作成
-racer_map = {
-    racer.racer_number: racer
-    for racer in result.racers
-}
+def main():
+    today = datetime.now(JST).date()
+    files = LzhDownloader(cache_dir="./cache").download(today, "schedule")
+    if not files:
+        raise RuntimeError("本日の番組表を取得できませんでした")
 
-race_list = []
+    venues = split_venues(files)
+    print(f"開催場数: {len(venues)}")
 
-for race in result.races:
-    entries = []
+    all_races = []
+    all_entries = []
+    all_racers = []
+    seen_codes = set()
 
-    for entry in result.entries:
-        if (
-            entry.venue_code == race.venue_code
-            and entry.race_date == race.race_date
-            and entry.race_number == race.race_number
-        ):
+    for index, (name, code, content) in enumerate(venues, start=1):
+        if code in seen_codes:
+            raise RuntimeError(f"同じ会場が重複しています: {name} ({code})")
+        seen_codes.add(code)
+
+        parsed = ScheduleParser().parse({f"venue_{index}.TXT": content})
+        if len(parsed.races) != 12:
+            raise RuntimeError(f"{name} の解析レース数が12ではありません: {len(parsed.races)}")
+        if len(parsed.entries) != 72:
+            raise RuntimeError(f"{name} の出走データ数が72ではありません: {len(parsed.entries)}")
+
+        # ライブラリの会場名判定が誤るケースを補正する。
+        for race in parsed.races:
+            race.venue_code = code
+        for entry in parsed.entries:
+            entry.venue_code = code
+
+        all_races.extend(parsed.races)
+        all_entries.extend(parsed.entries)
+        all_racers.extend(parsed.racers)
+        print(f"{name} ({code}): {len(parsed.races)}R / {len(parsed.entries)}艇")
+
+    # 選手番号から氏名・級別・支部を参照する。
+    racer_map = {racer.racer_number: racer for racer in all_racers}
+    entries_by_race = {}
+    for entry in all_entries:
+        key = (entry.venue_code, str(entry.race_date), entry.race_number)
+        entries_by_race.setdefault(key, []).append(entry)
+
+    race_list = []
+    for race in all_races:
+        key = (race.venue_code, str(race.race_date), race.race_number)
+        entries = []
+        for entry in entries_by_race.get(key, []):
             racer = racer_map.get(entry.racer_number)
-
             entries.append({
                 "boat_number": entry.boat_number,
                 "racer_number": entry.racer_number,
@@ -131,209 +99,30 @@ for race in result.races:
                 "branch": racer.branch if racer else None,
                 "motor_number": entry.motor_number,
             })
-
-    entries.sort(key=lambda x: x["boat_number"])
-
-    race_list.append({
-        "venue_code": race.venue_code,
-        "race_date": str(race.race_date),
-        "race_number": race.race_number,
-        "distance": race.distance,
-        "entries": entries,
-    })
-
-output_file = Path("data/races.json")
-output_file.write_text(
-    json.dumps(
-        race_list,
-        ensure_ascii=False,
-        indent=2,
-        default=str
-    ),
-    encoding="utf-8"
-)
-
-print(f"出走表データを保存しました：{len(race_list)}レース")
-
-
-# ダウンロード機能の調査
-import inspect
-
-print("=== LzhDownloader の機能一覧 ===")
-
-for name, member in inspect.getmembers(
-    LzhDownloader, predicate=callable
-):
-    if not name.startswith("_"):
-        try:
-            signature = inspect.signature(member)
-            print(f"{name}{signature}")
-        except (TypeError, ValueError):
-            print(name)
-
-print("=== download の説明 ===")
-print(inspect.getdoc(LzhDownloader.download))
-
-
-# 番組表ファイルの内容を調査
-print("=== 番組表ファイル調査 ===")
-
-for filename, content in files.items():
-    print("ファイル名:", filename)
-    print("文字数:", len(content))
-    print("行数:", len(content.splitlines()))
-    print("先頭20行:")
-
-    for line in content.splitlines()[:20]:
-        print(repr(line[:150]))
-
-print("=== 解析された会場 ===")
-venue_codes = sorted({
-    race.venue_code for race in result.races
-})
-print("会場コード:", venue_codes)
-print("会場数:", len(venue_codes))
-
-
-# 番組表ファイルの末尾を確認
-print("=== 番組表ファイル末尾調査 ===")
-
-for filename, content in files.items():
-    print("ファイル名:", filename)
-    print("末尾30行:")
-
-    
-# ファイル全体に含まれる開催場を調査
-print("=== 開催場の一覧調査 ===")
-
-for filename, content in files.items():
-    print("ファイル名:", filename)
-
-    for line_number, line in enumerate(
-        content.splitlines(), start=1
-    ):
-        if "ボートレース" in line or "競艇場" in line:
-            print(
-                f"{line_number}行目:",
-                repr(line[:120])
-            )
-
-    for line in content.splitlines()[-30:]:
-        print(repr(line[:150]))
-
-
-# ScheduleParser の解析機能を調査
-print("=== ScheduleParser の機能一覧 ===")
-
-for name, member in inspect.getmembers(
-    ScheduleParser, predicate=callable
-):
-    if not name.startswith("_"):
-        try:
-            signature = inspect.signature(member)
-            print(f"{name}{signature}")
-        except (TypeError, ValueError):
-            print(name)
-
-print("=== parse の説明 ===")
-print(inspect.getdoc(ScheduleParser.parse))
-
-
-# ScheduleParser.parse の内部コードを調査
-print("=== ScheduleParser.parse の内部コード ===")
-
-try:
-    print(inspect.getsource(ScheduleParser.parse))
-except Exception as e:
-    print("内部コードを取得できませんでした:", e)
-
-
-# _parse_single_file の内部コードを調査
-print("=== _parse_single_file の内部コード ===")
-
-try:
-    print(inspect.getsource(ScheduleParser._parse_single_file))
-except Exception as e:
-    print("内部コードを取得できませんでした:", e)
-    
-# 13会場を分割して解析するテスト
-print("=== 全国13会場の解析テスト ===")
-
-all_races = []
-all_entries = []
-all_venues = set()
-
-for filename, content in files.items():
-    lines = content.splitlines()
-
-    starts = [
-        i for i, line in enumerate(lines)
-        if line.startswith("ボートレース")
-    ]
-
-    for n, start in enumerate(starts):
-        end = starts[n + 1] if n + 1 < len(starts) else len(lines)
-
-        venue_lines = lines[start:end]
-        venue_text = "\n".join(venue_lines)
-       
-        # 会場名と正しいコードの対応
-        venue_codes = {
-            "唐津": "23",
-            "若松": "20",
-            "徳山": "18",
-            "宮島": "17",
-            "児島": "16",
-            "鳴門": "14",
-            "尼崎": "13",
-            "住之江": "12",
-            "びわこ": "11",
-            "津": "09",
-            "浜名湖": "06",
-            "江戸川": "03",
-            "桐生": "01",
-        }
-
-        # 全角・半角スペースを除去して会場を判定
-        header = venue_lines[0].replace("\u3000", "").replace(" ", "")
-
-        venue_name = next(
-            (
-                name for name in venue_codes
-                if header.startswith("ボートレース" + name)
-            ),
-            None
-        )
-
-        if venue_name is None:
-            raise ValueError(f"会場を判定できません: {venue_lines[0]}")
-
-        # 分割した番組表を解析
-        parsed = ScheduleParser().parse({
-            f"venue_{n + 1}.TXT": venue_text
+        entries.sort(key=lambda item: item["boat_number"])
+        if len(entries) != 6:
+            raise RuntimeError(f"出走数が6艇ではありません: {key} / {len(entries)}艇")
+        race_list.append({
+            "venue_code": race.venue_code,
+            "race_date": str(race.race_date),
+            "race_number": race.race_number,
+            "distance": race.distance,
+            "entries": entries,
         })
 
-        # 会場コードを補正
-        correct_code = venue_codes[venue_name]
+    race_list.sort(key=lambda item: (item["venue_code"], item["race_number"]))
+    status = {
+        "date": today.isoformat(),
+        "updated_at": datetime.now(JST).isoformat(),
+        "venue_count": len(venues),
+        "race_count": len(race_list),
+        "racer_count": len(all_racers),
+        "entry_count": len(all_entries),
+        "status": "ok",
+    }
 
-        for race in parsed.races:
-            race.venue_code = correct_code
-
-        for entry in parsed.entries:
-            entry.venue_code = correct_code
-
-        # 解析結果を集計
-        all_races.extend(parsed.races)
-        all_entries.extend(parsed.entries)
-        all_venues.add(correct_code)
-
-        print(
-            f"会場{n + 1}: {venue_name}",
-            "レース数:", len(parsed.races),
-            "出走数:", len(parsed.entries),
-            "会場コード:", correct_code
-        )
-print("=== 全国解析の合計 ===")
-print("会場数:", len(all_venues))
-print("レース数:", len(all_races))
-print("出走数:", len(all_entries))
+    Path("data").mkdir(exist_ok=True)
+    Path("data/races.json").write_text(
+        json.dumps(race_list, ensure_ascii=False, indent=2, default=str),
+        encoding="utf-8",
+    )
