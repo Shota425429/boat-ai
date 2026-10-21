@@ -176,5 +176,21 @@ for filename, content in files.items():
     print("ファイル名:", filename)
     print("末尾30行:")
 
+    
+# ファイル全体に含まれる開催場を調査
+print("=== 開催場の一覧調査 ===")
+
+for filename, content in files.items():
+    print("ファイル名:", filename)
+
+    for line_number, line in enumerate(
+        content.splitlines(), start=1
+    ):
+        if "ボートレース" in line or "競艇場" in line:
+            print(
+                f"{line_number}行目:",
+                repr(line[:120])
+            )
+
     for line in content.splitlines()[-30:]:
         print(repr(line[:150]))
