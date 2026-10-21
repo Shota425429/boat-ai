@@ -299,6 +299,3 @@ print("=== 全国解析の合計 ===")
 print("会場数:", len(all_venues))
 print("レース数:", len(all_races))
 print("出走数:", len(all_entries))
-
-except Exception as e:
-    print("内部コードを取得できませんでした:", e)
