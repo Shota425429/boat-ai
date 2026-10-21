@@ -147,3 +147,23 @@ for name, member in inspect.getmembers(
 
 print("=== download の説明 ===")
 print(inspect.getdoc(LzhDownloader.download))
+
+
+# 番組表ファイルの内容を調査
+print("=== 番組表ファイル調査 ===")
+
+for filename, content in files.items():
+    print("ファイル名:", filename)
+    print("文字数:", len(content))
+    print("行数:", len(content.splitlines()))
+    print("先頭20行:")
+
+    for line in content.splitlines()[:20]:
+        print(repr(line[:150]))
+
+print("=== 解析された会場 ===")
+venue_codes = sorted({
+    race.venue_code for race in result.races
+})
+print("会場コード:", venue_codes)
+print("会場数:", len(venue_codes))
