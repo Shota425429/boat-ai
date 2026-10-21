@@ -40,3 +40,32 @@ Path("data/schedule_status.json").write_text(
 
 print("番組表の取得・解析に成功しました")
 print(json.dumps(output, ensure_ascii=False, indent=2))
+
+
+# 取得データの構造を調査
+from dataclasses import asdict, is_dataclass
+
+def inspect_record(record):
+    if is_dataclass(record) and not isinstance(record, type):
+        return asdict(record)
+    if hasattr(record, "model_dump"):
+        return record.model_dump(mode="json")
+    if isinstance(record, dict):
+        return record
+    if hasattr(record, "__dict__"):
+        return vars(record)
+    return str(record)
+
+debug_data = {
+    "date": today.isoformat(),
+    "sample_race": inspect_record(result.races[0]),
+    "sample_racer": inspect_record(result.racers[0]),
+    "sample_entry": inspect_record(result.entries[0]),
+}
+
+Path("data/debug_structure.json").write_text(
+    json.dumps(debug_data, ensure_ascii=False, indent=2, default=str),
+    encoding="utf-8"
+)
+
+print("データ構造の確認用ファイルを保存しました")
