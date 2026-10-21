@@ -1,6 +1,6 @@
 [
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 1,
     "distance": 1800,
@@ -56,7 +56,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 2,
     "distance": 1800,
@@ -112,7 +112,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 3,
     "distance": 1800,
@@ -168,7 +168,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 4,
     "distance": 1800,
@@ -224,7 +224,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 5,
     "distance": 1800,
@@ -280,7 +280,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 6,
     "distance": 1800,
@@ -336,7 +336,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 7,
     "distance": 1800,
@@ -392,7 +392,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 8,
     "distance": 1800,
@@ -448,7 +448,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 9,
     "distance": 1800,
@@ -504,7 +504,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 10,
     "distance": 1800,
@@ -560,7 +560,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 11,
     "distance": 1800,
@@ -616,7 +616,7 @@
     ]
   },
   {
-    "venue_code": "09",
+    "venue_code": "01",
     "race_date": "2026-10-21",
     "race_number": 12,
     "distance": 1800,
@@ -667,6 +667,8070 @@
         "name": "板橋侑我",
         "racer_class": "A2",
         "branch": "静岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3202,
+        "name": "三品隆浩",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4100,
+        "name": "松田隆司",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5111,
+        "name": "三村岳人",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5242,
+        "name": "高山弘斗",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4813,
+        "name": "宮内直哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5430,
+        "name": "鳥本智史",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5033,
+        "name": "藤原孝斗",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4683,
+        "name": "向井田直",
+        "racer_class": "B2",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5031,
+        "name": "渡辺空依",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4383,
+        "name": "竹田吉行",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4651,
+        "name": "佐藤大騎",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4381,
+        "name": "田路朋史",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5318,
+        "name": "河内一馬",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5103,
+        "name": "芝田京介",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4564,
+        "name": "山本景士",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4318,
+        "name": "桑原将光",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4388,
+        "name": "是澤孝宏",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3808,
+        "name": "秋田健太",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5356,
+        "name": "長谷川暖",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5235,
+        "name": "岩田　凌",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4976,
+        "name": "金山立樹",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5432,
+        "name": "安藤瑠希",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4872,
+        "name": "山下流心",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4624,
+        "name": "高田　明",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4813,
+        "name": "宮内直哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4197,
+        "name": "渥美卓郎",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4656,
+        "name": "大崎　翔",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4181,
+        "name": "花本夏樹",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4692,
+        "name": "酒井俊弘",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4136,
+        "name": "江夏　満",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5242,
+        "name": "高山弘斗",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4608,
+        "name": "荒井翔伍",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4683,
+        "name": "向井田直",
+        "racer_class": "B2",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5288,
+        "name": "尾道佳諭",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4815,
+        "name": "伏島祐介",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3776,
+        "name": "横井健太",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3277,
+        "name": "齋藤　勇",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5031,
+        "name": "渡辺空依",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4842,
+        "name": "山下昂大",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5282,
+        "name": "中本大樹",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3808,
+        "name": "秋田健太",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5430,
+        "name": "鳥本智史",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5041,
+        "name": "荒牧凪沙",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4651,
+        "name": "佐藤大騎",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4872,
+        "name": "山下流心",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5111,
+        "name": "三村岳人",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5103,
+        "name": "芝田京介",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4411,
+        "name": "沢田昭宏",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4383,
+        "name": "竹田吉行",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5157,
+        "name": "市川健太",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4624,
+        "name": "高田　明",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5318,
+        "name": "河内一馬",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5402,
+        "name": "塚越陸斗",
+        "racer_class": "B2",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4181,
+        "name": "花本夏樹",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4381,
+        "name": "田路朋史",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4815,
+        "name": "伏島祐介",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4318,
+        "name": "桑原将光",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4656,
+        "name": "大崎　翔",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4100,
+        "name": "松田隆司",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5356,
+        "name": "長谷川暖",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4136,
+        "name": "江夏　満",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4388,
+        "name": "是澤孝宏",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5432,
+        "name": "安藤瑠希",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4842,
+        "name": "山下昂大",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4608,
+        "name": "荒井翔伍",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5033,
+        "name": "藤原孝斗",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "03",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4269,
+        "name": "杉山裕也",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4826,
+        "name": "井上一輝",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4925,
+        "name": "森　悠稀",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4704,
+        "name": "河野　大",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4535,
+        "name": "北山康介",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4832,
+        "name": "権藤俊光",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4076,
+        "name": "杉田篤光",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4888,
+        "name": "金児隆太",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4441,
+        "name": "末永由楽",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4293,
+        "name": "鈴木智啓",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4610,
+        "name": "佐藤大佑",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4669,
+        "name": "井上　茂",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3804,
+        "name": "中渡修作",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3908,
+        "name": "重成一人",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4526,
+        "name": "池田雄祐",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4973,
+        "name": "栗原直也",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4440,
+        "name": "萩原知哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5249,
+        "name": "三木晴斗",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4649,
+        "name": "和田操拓",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4342,
+        "name": "谷野錬志",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4549,
+        "name": "小林文彦",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4232,
+        "name": "笠　雅雄",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4003,
+        "name": "表　憲一",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4377,
+        "name": "濱本優一",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3635,
+        "name": "石田政吾",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3918,
+        "name": "深井利寿",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4299,
+        "name": "中島浩哉",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4632,
+        "name": "長尾京志",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4472,
+        "name": "尾嶋一広",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4348,
+        "name": "宮崎　奨",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5126,
+        "name": "山下大輝",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4343,
+        "name": "村岡　賢",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4580,
+        "name": "長谷川雅",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4076,
+        "name": "杉田篤光",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4623,
+        "name": "中北将史",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4485,
+        "name": "楠原正剛",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4902,
+        "name": "山川雄大",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4121,
+        "name": "富永修一",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4808,
+        "name": "松尾　拓",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3848,
+        "name": "川上聡介",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4880,
+        "name": "澤崎雄哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3557,
+        "name": "太田和美",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4440,
+        "name": "萩原知哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4494,
+        "name": "河合佑樹",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4645,
+        "name": "上村純一",
+        "racer_class": "A1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3664,
+        "name": "鈴木賢一",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3656,
+        "name": "伯母芳恒",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4549,
+        "name": "小林文彦",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4441,
+        "name": "末永由楽",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4903,
+        "name": "吉田凌太",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5249,
+        "name": "三木晴斗",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4725,
+        "name": "佐竹太一",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4540,
+        "name": "相原利章",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4299,
+        "name": "中島浩哉",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3489,
+        "name": "大場　敏",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4003,
+        "name": "表　憲一",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4623,
+        "name": "中北将史",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4715,
+        "name": "村上　遼",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4888,
+        "name": "金児隆太",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4632,
+        "name": "長尾京志",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4610,
+        "name": "佐藤大佑",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4348,
+        "name": "宮崎　奨",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4232,
+        "name": "笠　雅雄",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4359,
+        "name": "横川聖志",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3915,
+        "name": "繁野谷圭",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4973,
+        "name": "栗原直也",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4472,
+        "name": "尾嶋一広",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4669,
+        "name": "井上　茂",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4377,
+        "name": "濱本優一",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4526,
+        "name": "池田雄祐",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4343,
+        "name": "村岡　賢",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4808,
+        "name": "松尾　拓",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "06",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4494,
+        "name": "河合佑樹",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3557,
+        "name": "太田和美",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3908,
+        "name": "重成一人",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4903,
+        "name": "吉田凌太",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5126,
+        "name": "山下大輝",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4342,
+        "name": "谷野錬志",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4761,
+        "name": "山田晃大",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4010,
+        "name": "越智照浩",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4203,
+        "name": "小倉康典",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3519,
+        "name": "冨田秀幸",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3796,
+        "name": "長野道臣",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4400,
+        "name": "加藤奈月",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3340,
+        "name": "池田雷太",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4782,
+        "name": "浜崎準也",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4837,
+        "name": "酒井陽祐",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3614,
+        "name": "谷　勝幸",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3655,
+        "name": "本橋克洋",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5399,
+        "name": "長野未来",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4139,
+        "name": "丹下　健",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3880,
+        "name": "浅見宗孝",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4367,
+        "name": "山口修路",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4424,
+        "name": "松尾昂明",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3370,
+        "name": "坪内　実",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5230,
+        "name": "石原凪紗",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3993,
+        "name": "永井聖美",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5006,
+        "name": "久保原秀",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4159,
+        "name": "向後龍一",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3615,
+        "name": "横田　茂",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5050,
+        "name": "木下雄介",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4726,
+        "name": "島田なぎ",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3499,
+        "name": "市川哲也",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5293,
+        "name": "眞崎武蔵",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3519,
+        "name": "冨田秀幸",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5082,
+        "name": "一色凌雅",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5455,
+        "name": "澁澤周羽",
+        "racer_class": "B2",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4010,
+        "name": "越智照浩",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4538,
+        "name": "笠置博之",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5105,
+        "name": "富田恕生",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4618,
+        "name": "乃村康友",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4782,
+        "name": "浜崎準也",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3992,
+        "name": "関口智久",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5444,
+        "name": "林　風音",
+        "racer_class": "B2",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4899,
+        "name": "占部一真",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4837,
+        "name": "酒井陽祐",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3796,
+        "name": "長野道臣",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4961,
+        "name": "西橋奈未",
+        "racer_class": "A1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5230,
+        "name": "石原凪紗",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3852,
+        "name": "澤　大介",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3655,
+        "name": "本橋克洋",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4400,
+        "name": "加藤奈月",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3370,
+        "name": "坪内　実",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5399,
+        "name": "長野未来",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5006,
+        "name": "久保原秀",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4769,
+        "name": "馬場　剛",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5050,
+        "name": "木下雄介",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4367,
+        "name": "山口修路",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3831,
+        "name": "安藤裕貴",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4203,
+        "name": "小倉康典",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4254,
+        "name": "川島圭司",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5455,
+        "name": "澁澤周羽",
+        "racer_class": "B2",
+        "branch": "群馬",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4159,
+        "name": "向後龍一",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4424,
+        "name": "松尾昂明",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5293,
+        "name": "眞崎武蔵",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4618,
+        "name": "乃村康友",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3993,
+        "name": "永井聖美",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4538,
+        "name": "笠置博之",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4961,
+        "name": "西橋奈未",
+        "racer_class": "A1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4761,
+        "name": "山田晃大",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4899,
+        "name": "占部一真",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3499,
+        "name": "市川哲也",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5105,
+        "name": "富田恕生",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4139,
+        "name": "丹下　健",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "09",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4737,
+        "name": "竹井貴史",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4886,
+        "name": "入海　馨",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5028,
+        "name": "原田才一",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4460,
+        "name": "後藤翔之",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4962,
+        "name": "畑　竜生",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4637,
+        "name": "中田友也",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5353,
+        "name": "草川壮良",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4143,
+        "name": "浦田晃嗣",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3652,
+        "name": "森下　勇",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4944,
+        "name": "田代達也",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3596,
+        "name": "河上年昭",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4447,
+        "name": "深川麻奈",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5214,
+        "name": "田中宏典",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4058,
+        "name": "野末智一",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4728,
+        "name": "山口　亮",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3999,
+        "name": "大瀧明日",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4462,
+        "name": "夏山亮平",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5425,
+        "name": "西山　育",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5319,
+        "name": "近藤颯斗",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5301,
+        "name": "岩下巧斗",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4020,
+        "name": "川上清人",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5280,
+        "name": "廣瀬　凜",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4940,
+        "name": "白石有美",
+        "racer_class": "B2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4144,
+        "name": "石塚久也",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4678,
+        "name": "水野望美",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4301,
+        "name": "関　裕也",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4436,
+        "name": "渋谷明憲",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4864,
+        "name": "小川日紀",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4790,
+        "name": "柳内敬太",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5461,
+        "name": "板頭里緒",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5219,
+        "name": "森口和紀",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4661,
+        "name": "中島昂章",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4944,
+        "name": "田代達也",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4319,
+        "name": "三宅　潤",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4565,
+        "name": "西村豪洋",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4512,
+        "name": "高野哲史",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4776,
+        "name": "竹田和哉",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3874,
+        "name": "山本寛久",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3596,
+        "name": "河上年昭",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3642,
+        "name": "大塚浩二",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3507,
+        "name": "藤井　徹",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4086,
+        "name": "寺本重宣",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4728,
+        "name": "山口　亮",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4958,
+        "name": "溝口海義",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4635,
+        "name": "峰重力也",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5353,
+        "name": "草川壮良",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4049,
+        "name": "荒川健太",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4746,
+        "name": "大豆生蒼",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4864,
+        "name": "小川日紀",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4274,
+        "name": "長畑友輔",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3761,
+        "name": "山本光雄",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4550,
+        "name": "石岡将太",
+        "racer_class": "A2",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4020,
+        "name": "川上清人",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4428,
+        "name": "有賀達也",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3999,
+        "name": "大瀧明日",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4447,
+        "name": "深川麻奈",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4940,
+        "name": "白石有美",
+        "racer_class": "B2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4678,
+        "name": "水野望美",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3994,
+        "name": "小野　桜",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5204,
+        "name": "宇恵有香",
+        "racer_class": "B2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4319,
+        "name": "三宅　潤",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4943,
+        "name": "八木治樹",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4144,
+        "name": "石塚久也",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3652,
+        "name": "森下　勇",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3874,
+        "name": "山本寛久",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4301,
+        "name": "関　裕也",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4790,
+        "name": "柳内敬太",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4086,
+        "name": "寺本重宣",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4462,
+        "name": "夏山亮平",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4661,
+        "name": "中島昂章",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5301,
+        "name": "岩下巧斗",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4635,
+        "name": "峰重力也",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "11",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5280,
+        "name": "廣瀬　凜",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4512,
+        "name": "高野哲史",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4776,
+        "name": "竹田和哉",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4958,
+        "name": "溝口海義",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4058,
+        "name": "野末智一",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4436,
+        "name": "渋谷明憲",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3900,
+        "name": "香川素子",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4534,
+        "name": "坂咲友理",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5227,
+        "name": "川原愛未",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3932,
+        "name": "池田浩美",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4224,
+        "name": "大橋栄里",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5471,
+        "name": "田中　結",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5117,
+        "name": "冨名腰桃",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5264,
+        "name": "登みひ果",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5144,
+        "name": "中尾彩香",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4823,
+        "name": "中村桃佳",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5418,
+        "name": "堀内亜海",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5123,
+        "name": "福山恵里",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3580,
+        "name": "水口由紀",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4289,
+        "name": "落合直子",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5327,
+        "name": "西田和加",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3302,
+        "name": "谷川里江",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5438,
+        "name": "星田夢結",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4941,
+        "name": "孫崎百世",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4443,
+        "name": "津田裕絵",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5281,
+        "name": "井上遥妃",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4387,
+        "name": "平山智加",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5389,
+        "name": "恵良琴美",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5412,
+        "name": "久保田凪",
+        "racer_class": "B2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3175,
+        "name": "渡辺千草",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3435,
+        "name": "寺田千恵",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5277,
+        "name": "井上未都",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3871,
+        "name": "池田紫乃",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4479,
+        "name": "矢野真梨",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5151,
+        "name": "山下奈緒",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4556,
+        "name": "竹井奈美",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4694,
+        "name": "高田　綾",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5129,
+        "name": "山口真喜",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4373,
+        "name": "若狭奈美",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3579,
+        "name": "中里優子",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5227,
+        "name": "川原愛未",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4938,
+        "name": "小芦るり",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3801,
+        "name": "五反田忍",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5148,
+        "name": "松本　怜",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3357,
+        "name": "福島陽子",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4286,
+        "name": "平田さや",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5117,
+        "name": "冨名腰桃",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5188,
+        "name": "武井莉里",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5327,
+        "name": "西田和加",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3611,
+        "name": "岩崎芳美",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4534,
+        "name": "坂咲友理",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4208,
+        "name": "三浦永理",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5389,
+        "name": "恵良琴美",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5144,
+        "name": "中尾彩香",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4283,
+        "name": "石井裕美",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4556,
+        "name": "竹井奈美",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4224,
+        "name": "大橋栄里",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4289,
+        "name": "落合直子",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4443,
+        "name": "津田裕絵",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5418,
+        "name": "堀内亜海",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4964,
+        "name": "土屋　南",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3932,
+        "name": "池田浩美",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4938,
+        "name": "小芦るり",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5264,
+        "name": "登みひ果",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5357,
+        "name": "田中瀬里",
+        "racer_class": "B2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5281,
+        "name": "井上遥妃",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4373,
+        "name": "若狭奈美",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4823,
+        "name": "中村桃佳",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3175,
+        "name": "渡辺千草",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3435,
+        "name": "寺田千恵",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5045,
+        "name": "平川香織",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5148,
+        "name": "松本　怜",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "12",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4208,
+        "name": "三浦永理",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5188,
+        "name": "武井莉里",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3302,
+        "name": "谷川里江",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5277,
+        "name": "井上未都",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5129,
+        "name": "山口真喜",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4387,
+        "name": "平山智加",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5333,
+        "name": "山下智己",
+        "racer_class": "B2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3539,
+        "name": "金子順一",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5034,
+        "name": "若林義人",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4325,
+        "name": "新出浩司",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3564,
+        "name": "桑原　啓",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3748,
+        "name": "小黒竜吾",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3809,
+        "name": "吉田　光",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4543,
+        "name": "重木輝彦",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5382,
+        "name": "山下心一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5238,
+        "name": "笹木香吾",
+        "racer_class": "A2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5396,
+        "name": "近藤来希",
+        "racer_class": "B2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5125,
+        "name": "高井雄基",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3814,
+        "name": "金子貴志",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3800,
+        "name": "牧　宏次",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5400,
+        "name": "高村　諒",
+        "racer_class": "B2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4778,
+        "name": "堤　啓輔",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5434,
+        "name": "藤田康生",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4295,
+        "name": "小坂尚哉",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4380,
+        "name": "鈴木峻佑",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5311,
+        "name": "小林京平",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4496,
+        "name": "内堀　学",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5465,
+        "name": "直江健成",
+        "racer_class": "B2",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4356,
+        "name": "長岡良也",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4168,
+        "name": "石野貴之",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3577,
+        "name": "向所浩二",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3748,
+        "name": "小黒竜吾",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3385,
+        "name": "渡邉睦広",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4118,
+        "name": "宇佐見淳",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5375,
+        "name": "庄島潤成",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4736,
+        "name": "高倉和士",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4366,
+        "name": "前沢丈史",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5382,
+        "name": "山下心一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4339,
+        "name": "平瀬城啓",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5095,
+        "name": "小原聡将",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3539,
+        "name": "金子順一",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4917,
+        "name": "岩橋裕馬",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3508,
+        "name": "久富政弘",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4950,
+        "name": "高岡竜也",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3564,
+        "name": "桑原　啓",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5434,
+        "name": "藤田康生",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3558,
+        "name": "山本浩次",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4543,
+        "name": "重木輝彦",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3800,
+        "name": "牧　宏次",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5167,
+        "name": "小川竜太",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5333,
+        "name": "山下智己",
+        "racer_class": "B2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3809,
+        "name": "吉田　光",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4256,
+        "name": "渡辺浩司",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5081,
+        "name": "篠原飛翔",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4644,
+        "name": "山田亮太",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4295,
+        "name": "小坂尚哉",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4118,
+        "name": "宇佐見淳",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5311,
+        "name": "小林京平",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5460,
+        "name": "早川理稀",
+        "racer_class": "B2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4264,
+        "name": "長尾章平",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5238,
+        "name": "笹木香吾",
+        "racer_class": "A2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4917,
+        "name": "岩橋裕馬",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4736,
+        "name": "高倉和士",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5034,
+        "name": "若林義人",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4257,
+        "name": "古川　健",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4496,
+        "name": "内堀　学",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5095,
+        "name": "小原聡将",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4168,
+        "name": "石野貴之",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3814,
+        "name": "金子貴志",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3508,
+        "name": "久富政弘",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3577,
+        "name": "向所浩二",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4120,
+        "name": "柘植政浩",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "13",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4256,
+        "name": "渡辺浩司",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5125,
+        "name": "高井雄基",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4356,
+        "name": "長岡良也",
+        "racer_class": "A2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4366,
+        "name": "前沢丈史",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3385,
+        "name": "渡邉睦広",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4950,
+        "name": "高岡竜也",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3841,
+        "name": "佐々木和",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3812,
+        "name": "山崎聖司",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4439,
+        "name": "近藤友宝",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4871,
+        "name": "菊池宏志",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4724,
+        "name": "吉田祐貴",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5463,
+        "name": "出口飛龍",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3906,
+        "name": "飯山晃三",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4438,
+        "name": "森作雄大",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3361,
+        "name": "岡部　浩",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5419,
+        "name": "櫻井　隼",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4384,
+        "name": "鶴本崇文",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4466,
+        "name": "南　佑典",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3944,
+        "name": "山口裕二",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3319,
+        "name": "山崎義明",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4277,
+        "name": "金田大輔",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4105,
+        "name": "松下直也",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4873,
+        "name": "蒲原健太",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4251,
+        "name": "川崎誠志",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3505,
+        "name": "山田竜一",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3939,
+        "name": "渡辺真至",
+        "racer_class": "B2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4877,
+        "name": "鈴谷一平",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4567,
+        "name": "上村慎太",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5048,
+        "name": "眞鳥康太",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3422,
+        "name": "服部幸男",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4461,
+        "name": "安田吉宏",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4077,
+        "name": "品田直樹",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4112,
+        "name": "大久保信",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3554,
+        "name": "仲口博崇",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4592,
+        "name": "小林孝弘",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4202,
+        "name": "浮田圭浩",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5047,
+        "name": "國分将太",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4724,
+        "name": "吉田祐貴",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3075,
+        "name": "中村裕将",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3837,
+        "name": "秋山広一",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4601,
+        "name": "森野正弘",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5393,
+        "name": "藤原　駿",
+        "racer_class": "B2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4034,
+        "name": "西原明生",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4179,
+        "name": "広次　修",
+        "racer_class": "A2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4952,
+        "name": "吉武真也",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3909,
+        "name": "佐々木康",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3812,
+        "name": "山崎聖司",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4277,
+        "name": "金田大輔",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4871,
+        "name": "菊池宏志",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3576,
+        "name": "白水勝也",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4873,
+        "name": "蒲原健太",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5403,
+        "name": "藤山湧太",
+        "racer_class": "B2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3906,
+        "name": "飯山晃三",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4422,
+        "name": "永井亮次",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5048,
+        "name": "眞鳥康太",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4251,
+        "name": "川崎誠志",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4202,
+        "name": "浮田圭浩",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4042,
+        "name": "丸岡正典",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4438,
+        "name": "森作雄大",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4439,
+        "name": "近藤友宝",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4105,
+        "name": "松下直也",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4384,
+        "name": "鶴本崇文",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5047,
+        "name": "國分将太",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4592,
+        "name": "小林孝弘",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3939,
+        "name": "渡辺真至",
+        "racer_class": "B2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5457,
+        "name": "山田陽翔",
+        "racer_class": "B2",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3837,
+        "name": "秋山広一",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3422,
+        "name": "服部幸男",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4466,
+        "name": "南　佑典",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3319,
+        "name": "山崎義明",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4179,
+        "name": "広次　修",
+        "racer_class": "A2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4077,
+        "name": "品田直樹",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "14",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3909,
+        "name": "佐々木康",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4601,
+        "name": "森野正弘",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3554,
+        "name": "仲口博崇",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3944,
+        "name": "山口裕二",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3576,
+        "name": "白水勝也",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4877,
+        "name": "鈴谷一平",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5055,
+        "name": "眞鳥章太",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4562,
+        "name": "阪本勇介",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4004,
+        "name": "山本浩輔",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4697,
+        "name": "國弘翔平",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4894,
+        "name": "原村拓也",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5373,
+        "name": "諏訪玲奈",
+        "racer_class": "B2",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3233,
+        "name": "小畑実成",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3660,
+        "name": "長谷川親",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4876,
+        "name": "梅木敬太",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5037,
+        "name": "田頭虎親",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4390,
+        "name": "松本弓雄",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5447,
+        "name": "岡本亜子",
+        "racer_class": "B2",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4691,
+        "name": "水原　慎",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4846,
+        "name": "佐藤駿介",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5340,
+        "name": "樋江井舞",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4513,
+        "name": "河野真也",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3541,
+        "name": "三嶌誠司",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5365,
+        "name": "石村日奈",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4791,
+        "name": "黒澤めぐ",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3543,
+        "name": "福田雅一",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5029,
+        "name": "中　亮太",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4985,
+        "name": "井本昌也",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4603,
+        "name": "谷川将太",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5049,
+        "name": "松井友汰",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4474,
+        "name": "渡辺　崇",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3838,
+        "name": "伊藤啓三",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5296,
+        "name": "永田　楽",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4050,
+        "name": "田口節子",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4676,
+        "name": "後藤隼之",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3876,
+        "name": "中辻崇人",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4241,
+        "name": "大串重幸",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4529,
+        "name": "嶋　義信",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4894,
+        "name": "原村拓也",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5027,
+        "name": "重冨勇哉",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4180,
+        "name": "上野秀和",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5044,
+        "name": "渡邉　健",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4230,
+        "name": "濱崎直矢",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5340,
+        "name": "樋江井舞",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4390,
+        "name": "松本弓雄",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3517,
+        "name": "高橋　勲",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5373,
+        "name": "諏訪玲奈",
+        "racer_class": "B2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4953,
+        "name": "尾上雅也",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4117,
+        "name": "廣中智紗",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5365,
+        "name": "石村日奈",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5037,
+        "name": "田頭虎親",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4004,
+        "name": "山本浩輔",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5029,
+        "name": "中　亮太",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3352,
+        "name": "小川晃司",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3747,
+        "name": "國崎良春",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4603,
+        "name": "谷川将太",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4846,
+        "name": "佐藤駿介",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4474,
+        "name": "渡辺　崇",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5447,
+        "name": "岡本亜子",
+        "racer_class": "B2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4345,
+        "name": "西舘　健",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3876,
+        "name": "中辻崇人",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3541,
+        "name": "三嶌誠司",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4985,
+        "name": "井本昌也",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5055,
+        "name": "眞鳥章太",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3543,
+        "name": "福田雅一",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4241,
+        "name": "大串重幸",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5049,
+        "name": "松井友汰",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4180,
+        "name": "上野秀和",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4050,
+        "name": "田口節子",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4230,
+        "name": "濱崎直矢",
+        "racer_class": "A2",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3838,
+        "name": "伊藤啓三",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4691,
+        "name": "水原　慎",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "16",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4953,
+        "name": "尾上雅也",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4676,
+        "name": "後藤隼之",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4513,
+        "name": "河野真也",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4117,
+        "name": "廣中智紗",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4562,
+        "name": "阪本勇介",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4529,
+        "name": "嶋　義信",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4596,
+        "name": "葛原大陽",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4173,
+        "name": "岡谷健吾",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4792,
+        "name": "杉村賢也",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4951,
+        "name": "新田洋一",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4196,
+        "name": "田中太一",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4382,
+        "name": "高山智至",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3436,
+        "name": "柏野幸二",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3568,
+        "name": "木村光宏",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3867,
+        "name": "松浦　勝",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3647,
+        "name": "伊藤雄二",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3984,
+        "name": "坂口　周",
+        "racer_class": "A1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3072,
+        "name": "西田　靖",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3434,
+        "name": "松尾宣邦",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3054,
+        "name": "北川幸典",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4636,
+        "name": "赤池修平",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4463,
+        "name": "三苫晃幸",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3502,
+        "name": "渡邉英児",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4128,
+        "name": "川口貴久",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3842,
+        "name": "星野太郎",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4097,
+        "name": "貫地谷直",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3612,
+        "name": "馬袋義則",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4584,
+        "name": "村岡賢人",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4258,
+        "name": "関根彰人",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5469,
+        "name": "今泉博人",
+        "racer_class": "B2",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4089,
+        "name": "妹尾忠幸",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4124,
+        "name": "池田雄一",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5074,
+        "name": "大澤誠也",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4031,
+        "name": "飯島　誠",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4555,
+        "name": "富永大一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5054,
+        "name": "佐々木大",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4792,
+        "name": "杉村賢也",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4911,
+        "name": "片岡大地",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3968,
+        "name": "茶谷信次",
+        "racer_class": "A2",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 2878,
+        "name": "富山弘幸",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3372,
+        "name": "加藤雅之",
+        "racer_class": "B2",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5468,
+        "name": "山口隼人",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4505,
+        "name": "島田賢人",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3578,
+        "name": "塩田雄一",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4196,
+        "name": "田中太一",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3434,
+        "name": "松尾宣邦",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3436,
+        "name": "柏野幸二",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3572,
+        "name": "安田政彦",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3054,
+        "name": "北川幸典",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4382,
+        "name": "高山智至",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4811,
+        "name": "向井田佑",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3867,
+        "name": "松浦　勝",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3842,
+        "name": "星野太郎",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5429,
+        "name": "吉川颯汰",
+        "racer_class": "B2",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4636,
+        "name": "赤池修平",
+        "racer_class": "B1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4031,
+        "name": "飯島　誠",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5089,
+        "name": "前田　翔",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3072,
+        "name": "西田　靖",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5469,
+        "name": "今泉博人",
+        "racer_class": "B2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4951,
+        "name": "新田洋一",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3647,
+        "name": "伊藤雄二",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5074,
+        "name": "大澤誠也",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4463,
+        "name": "三苫晃幸",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4097,
+        "name": "貫地谷直",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5468,
+        "name": "山口隼人",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4173,
+        "name": "岡谷健吾",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3502,
+        "name": "渡邉英児",
+        "racer_class": "A2",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4596,
+        "name": "葛原大陽",
+        "racer_class": "A2",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4555,
+        "name": "富永大一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3984,
+        "name": "坂口　周",
+        "racer_class": "A1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 2878,
+        "name": "富山弘幸",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4584,
+        "name": "村岡賢人",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "17",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3612,
+        "name": "馬袋義則",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4505,
+        "name": "島田賢人",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3568,
+        "name": "木村光宏",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4128,
+        "name": "川口貴久",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4089,
+        "name": "妹尾忠幸",
+        "racer_class": "A2",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4911,
+        "name": "片岡大地",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4709,
+        "name": "岡村将也",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3981,
+        "name": "今坂晃広",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4007,
+        "name": "榮田将彦",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5342,
+        "name": "原村百那",
+        "racer_class": "B2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3974,
+        "name": "深山祐二",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4631,
+        "name": "新井英孝",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4352,
+        "name": "下條雄太",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4216,
+        "name": "星　栄爾",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5073,
+        "name": "上原健次",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4981,
+        "name": "牧山敦也",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4508,
+        "name": "野間大樹",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3339,
+        "name": "泉　具巳",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5218,
+        "name": "山田理央",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4358,
+        "name": "松本庸平",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4930,
+        "name": "佐藤　悠",
+        "racer_class": "A2",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4226,
+        "name": "村田浩司",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4579,
+        "name": "中嶋健一",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5451,
+        "name": "知念伶奈",
+        "racer_class": "B2",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4053,
+        "name": "芦澤　望",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4000,
+        "name": "松本博昭",
+        "racer_class": "A2",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5383,
+        "name": "中村　楓",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5173,
+        "name": "谷口佳蓮",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4693,
+        "name": "松下誉士",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4648,
+        "name": "木村亮太",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5369,
+        "name": "岡崎凪汰",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4709,
+        "name": "岡村将也",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4182,
+        "name": "吉田和仁",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3445,
+        "name": "加藤高史",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5397,
+        "name": "寺田夢生",
+        "racer_class": "B2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4218,
+        "name": "吉川喜継",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4216,
+        "name": "星　栄爾",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5342,
+        "name": "原村百那",
+        "racer_class": "B2",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4960,
+        "name": "黒野元基",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5096,
+        "name": "上原　崚",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5076,
+        "name": "石原　光",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5421,
+        "name": "原田朱理",
+        "racer_class": "B2",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3892,
+        "name": "草場康幸",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3974,
+        "name": "深山祐二",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4302,
+        "name": "西野翔太",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4508,
+        "name": "野間大樹",
+        "racer_class": "A2",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3870,
+        "name": "寺嶋　雄",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3745,
+        "name": "橋本年光",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5383,
+        "name": "中村　楓",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4730,
+        "name": "土屋実沙",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5002,
+        "name": "上田健太",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4207,
+        "name": "松下一也",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4981,
+        "name": "牧山敦也",
+        "racer_class": "B1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4358,
+        "name": "松本庸平",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4589,
+        "name": "塩崎桐加",
+        "racer_class": "B1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5073,
+        "name": "上原健次",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5173,
+        "name": "谷口佳蓮",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5369,
+        "name": "岡崎凪汰",
+        "racer_class": "B1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5218,
+        "name": "山田理央",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3981,
+        "name": "今坂晃広",
+        "racer_class": "B1",
+        "branch": "静岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4693,
+        "name": "松下誉士",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4352,
+        "name": "下條雄太",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3445,
+        "name": "加藤高史",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4949,
+        "name": "横田貴満",
+        "racer_class": "A2",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5421,
+        "name": "原田朱理",
+        "racer_class": "B2",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4016,
+        "name": "西川新太",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3870,
+        "name": "寺嶋　雄",
+        "racer_class": "B1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4053,
+        "name": "芦澤　望",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3339,
+        "name": "泉　具巳",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4218,
+        "name": "吉川喜継",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4930,
+        "name": "佐藤　悠",
+        "racer_class": "A2",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5459,
+        "name": "田中きら",
+        "racer_class": "B2",
+        "branch": "山口",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "18",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4960,
+        "name": "黒野元基",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5002,
+        "name": "上田健太",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3745,
+        "name": "橋本年光",
+        "racer_class": "B1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4579,
+        "name": "中嶋健一",
+        "racer_class": "A2",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4000,
+        "name": "松本博昭",
+        "racer_class": "A2",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4182,
+        "name": "吉田和仁",
+        "racer_class": "B1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3297,
+        "name": "藤丸光一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4887,
+        "name": "富澤祐作",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5093,
+        "name": "浦野　海",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4511,
+        "name": "中岡健人",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4306,
+        "name": "畔柳俊吾",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5372,
+        "name": "上岡巧汰",
+        "racer_class": "B2",
+        "branch": "広島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4186,
+        "name": "小川時光",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4119,
+        "name": "泥谷一毅",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4233,
+        "name": "亀山雅幸",
+        "racer_class": "A2",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4771,
+        "name": "下寺秀和",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3497,
+        "name": "後藤　浩",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4331,
+        "name": "三好勇人",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4425,
+        "name": "大井清貴",
+        "racer_class": "B1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4177,
+        "name": "萬　正嗣",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4458,
+        "name": "抹香雄三",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4394,
+        "name": "永嶋裕一",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4036,
+        "name": "金田　諭",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5409,
+        "name": "宮本琉正",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3643,
+        "name": "米田隆弘",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5007,
+        "name": "近藤雄一",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4084,
+        "name": "杉山正樹",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4193,
+        "name": "郷原章平",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5384,
+        "name": "八戸琉楓",
+        "racer_class": "B2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3853,
+        "name": "岩崎正哉",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4142,
+        "name": "平野和明",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3898,
+        "name": "平田忠則",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4803,
+        "name": "飯田庄吾",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4276,
+        "name": "鈴木勝博",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4766,
+        "name": "石井孝之",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5420,
+        "name": "吉原快誓",
+        "racer_class": "B2",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4572,
+        "name": "渡部　悟",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4306,
+        "name": "畔柳俊吾",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4063,
+        "name": "市橋卓士",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4171,
+        "name": "榎　幸司",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3928,
+        "name": "林　恵祐",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3448,
+        "name": "高山秀雄",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3997,
+        "name": "北村征嗣",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5308,
+        "name": "藤森拓海",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4527,
+        "name": "高野心吾",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 3297,
+        "name": "藤丸光一",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4186,
+        "name": "小川時光",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3978,
+        "name": "齊藤　仁",
+        "racer_class": "A2",
+        "branch": "東京",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4394,
+        "name": "永嶋裕一",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4809,
+        "name": "外崎　悟",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4331,
+        "name": "三好勇人",
+        "racer_class": "A2",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4245,
+        "name": "高橋直哉",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4145,
+        "name": "小澤　学",
+        "racer_class": "B1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4491,
+        "name": "田中　堅",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4303,
+        "name": "牧原　崇",
+        "racer_class": "B1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3853,
+        "name": "岩崎正哉",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5381,
+        "name": "有山　望",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5093,
+        "name": "浦野　海",
+        "racer_class": "B2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3304,
+        "name": "烏野賢太",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4119,
+        "name": "泥谷一毅",
+        "racer_class": "B1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4193,
+        "name": "郷原章平",
+        "racer_class": "A2",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 5177,
+        "name": "松井貫太",
+        "racer_class": "B1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3497,
+        "name": "後藤　浩",
+        "racer_class": "B1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4142,
+        "name": "平野和明",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4887,
+        "name": "富澤祐作",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4177,
+        "name": "萬　正嗣",
+        "racer_class": "B1",
+        "branch": "群馬",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4171,
+        "name": "榎　幸司",
+        "racer_class": "A2",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4276,
+        "name": "鈴木勝博",
+        "racer_class": "A2",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4511,
+        "name": "中岡健人",
+        "racer_class": "B1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4233,
+        "name": "亀山雅幸",
+        "racer_class": "A2",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3643,
+        "name": "米田隆弘",
+        "racer_class": "B1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4458,
+        "name": "抹香雄三",
+        "racer_class": "B1",
+        "branch": "広島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "20",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3898,
+        "name": "平田忠則",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3997,
+        "name": "北村征嗣",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4036,
+        "name": "金田　諭",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4063,
+        "name": "市橋卓士",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4084,
+        "name": "杉山正樹",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4771,
+        "name": "下寺秀和",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 1,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4456,
+        "name": "鎌倉　涼",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4757,
+        "name": "山田祐也",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4445,
+        "name": "宮地元輝",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 5088,
+        "name": "高憧四季",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4857,
+        "name": "加藤翔馬",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4502,
+        "name": "遠藤エミ",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 2,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4019,
+        "name": "笠原　亮",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4370,
+        "name": "山口達也",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4659,
+        "name": "木下翔太",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4444,
+        "name": "桐生順平",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4604,
+        "name": "岩瀬裕亮",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4587,
+        "name": "木田峰由",
+        "racer_class": "A1",
+        "branch": "福井",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 3,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4959,
+        "name": "井上忠政",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4371,
+        "name": "西山貴浩",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5298,
+        "name": "水谷理人",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4497,
+        "name": "桑原　悠",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4682,
+        "name": "大上卓人",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4504,
+        "name": "前田将太",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 4,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4772,
+        "name": "石丸海渡",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4980,
+        "name": "佐々木完",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4278,
+        "name": "藤岡俊介",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4796,
+        "name": "春園功太",
+        "racer_class": "A1",
+        "branch": "三重",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 3415,
+        "name": "松井　繁",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4362,
+        "name": "土屋智則",
+        "racer_class": "A1",
+        "branch": "群馬",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 5,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4757,
+        "name": "山田祐也",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4013,
+        "name": "中島孝平",
+        "racer_class": "A1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4095,
+        "name": "福来　剛",
+        "racer_class": "A1",
+        "branch": "東京",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4320,
+        "name": "峰　竜太",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4166,
+        "name": "吉田拡郎",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4448,
+        "name": "青木玄太",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 6,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3941,
+        "name": "池田浩二",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4848,
+        "name": "仲谷颯仁",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 5026,
+        "name": "安河内健",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4787,
+        "name": "椎名　豊",
+        "racer_class": "A1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4205,
+        "name": "山口　剛",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4659,
+        "name": "木下翔太",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 7,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5298,
+        "name": "水谷理人",
+        "racer_class": "A1",
+        "branch": "香川",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4857,
+        "name": "加藤翔馬",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 3623,
+        "name": "深川真二",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4370,
+        "name": "山口達也",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4685,
+        "name": "島村隆幸",
+        "racer_class": "A1",
+        "branch": "徳島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 3779,
+        "name": "原田幸哉",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 8,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5088,
+        "name": "高憧四季",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4682,
+        "name": "大上卓人",
+        "racer_class": "A1",
+        "branch": "広島",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4361,
+        "name": "柳生泰二",
+        "racer_class": "A1",
+        "branch": "山口",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4719,
+        "name": "上條暢嵩",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4019,
+        "name": "笠原　亮",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4503,
+        "name": "上野真之",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 9,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4278,
+        "name": "藤岡俊介",
+        "racer_class": "A1",
+        "branch": "兵庫",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4166,
+        "name": "吉田拡郎",
+        "racer_class": "A1",
+        "branch": "岡山",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4456,
+        "name": "鎌倉　涼",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4686,
+        "name": "丸野一樹",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4371,
+        "name": "西山貴浩",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 5142,
+        "name": "常住　蓮",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 10,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 3960,
+        "name": "菊地孝平",
+        "racer_class": "A1",
+        "branch": "静岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4604,
+        "name": "岩瀬裕亮",
+        "racer_class": "A1",
+        "branch": "愛知",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4362,
+        "name": "土屋智則",
+        "racer_class": "A1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4448,
+        "name": "青木玄太",
+        "racer_class": "A1",
+        "branch": "滋賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 5121,
+        "name": "定松勇樹",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4497,
+        "name": "桑原　悠",
+        "racer_class": "A1",
+        "branch": "長崎",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 11,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 5084,
+        "name": "末永和也",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 4787,
+        "name": "椎名　豊",
+        "racer_class": "A1",
+        "branch": "群馬",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4444,
+        "name": "桐生順平",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4013,
+        "name": "中島孝平",
+        "racer_class": "A1",
+        "branch": "福井",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4445,
+        "name": "宮地元輝",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4344,
+        "name": "新田雄史",
+        "racer_class": "A1",
+        "branch": "三重",
+        "motor_number": null
+      }
+    ]
+  },
+  {
+    "venue_code": "23",
+    "race_date": "2026-10-21",
+    "race_number": 12,
+    "distance": 1800,
+    "entries": [
+      {
+        "boat_number": 1,
+        "racer_number": 4719,
+        "name": "上條暢嵩",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 2,
+        "racer_number": 3415,
+        "name": "松井　繁",
+        "racer_class": "A1",
+        "branch": "大阪",
+        "motor_number": null
+      },
+      {
+        "boat_number": 3,
+        "racer_number": 4573,
+        "name": "佐藤　翼",
+        "racer_class": "A1",
+        "branch": "埼玉",
+        "motor_number": null
+      },
+      {
+        "boat_number": 4,
+        "racer_number": 4848,
+        "name": "仲谷颯仁",
+        "racer_class": "A1",
+        "branch": "福岡",
+        "motor_number": null
+      },
+      {
+        "boat_number": 5,
+        "racer_number": 4500,
+        "name": "山田康二",
+        "racer_class": "A1",
+        "branch": "佐賀",
+        "motor_number": null
+      },
+      {
+        "boat_number": 6,
+        "racer_number": 4928,
+        "name": "栗城　匠",
+        "racer_class": "A1",
+        "branch": "東京",
         "motor_number": null
       }
     ]
