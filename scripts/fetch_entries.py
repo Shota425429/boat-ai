@@ -126,7 +126,7 @@ def main():
         json.dumps(race_list, ensure_ascii=False, indent=2, default=str),
         encoding="utf-8",
     )
-        Path("data/schedule_status.json").write_text(
+    Path("data/schedule_status.json").write_text(
         json.dumps(status, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
@@ -137,5 +137,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        encoding="utf-8",
-    )
