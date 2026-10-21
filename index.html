@@ -7,6 +7,37 @@
 <style>
 :root{font-family:system-ui,-apple-system,"Hiragino Kaku Gothic ProN",sans-serif;color:#17253d;background:#f2f5fa}
 *{box-sizing:border-box}body{margin:0}header{background:linear-gradient(115deg,#123d73,#1766b8);color:white;padding:23px 18px}header .wrap{max-width:940px;margin:auto}h1{font-size:26px;margin:0 0 5px}header p{margin:0;color:#e0ecff;font-size:13px}main{max-width:940px;margin:20px auto;padding:0 14px 30px}.card{background:white;border-radius:14px;padding:20px;box-shadow:0 3px 16px #12263d12;margin-bottom:15px}h2{font-size:19px;margin:0 0 15px}h3{font-size:16px;margin:0 0 10px}small,.muted{color:#56677e}.meta{font-size:13px;color:#56677e;margin:0 0 14px}.field label{display:block;font-weight:700;font-size:14px;margin-bottom:7px}select{width:100%;max-width:420px;border:1px solid #b9c7da;border-radius:9px;background:white;padding:12px;font-size:16px;color:#17253d}.race-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:7px;margin-top:9px}.race-btn{border:1px solid #c9d5e4;border-radius:8px;padding:12px 0;background:#fff;color:#173c6b;font-size:15px;font-weight:700;cursor:pointer}.race-btn.active{background:#1766b8;color:#fff;border-color:#1766b8}.race-btn:disabled{opacity:.4;cursor:not-allowed}.field{margin-bottom:18px}.status{border-left:4px solid #1766b8;background:#f4f8fe;padding:12px 13px;border-radius:4px;font-size:14px;line-height:1.6}.status.error{border-color:#c53535;background:#fff5f5}.entry{display:flex;align-items:flex-start;gap:12px;padding:16px 0;border-bottom:1px solid #e7ebf2}.entry:last-child{border:0}.lane{width:45px;height:45px;flex:none;display:grid;place-items:center;border-radius:8px;border:1px solid #b6c0cc;font-size:20px;font-weight:800}.lane-1{background:white;color:#111}.lane-2{background:#222;color:white}.lane-3{background:#e43c43;color:white}.lane-4{background:#316dd1;color:white}.lane-5{background:#e6d334;color:#111}.lane-6{background:#268c56;color:white}.entry-main{flex:1;min-width:0}.entry-main strong{display:block;font-size:17px}.entry-main small{display:block;line-height:1.6;margin-top:4px}.class{font-weight:800;color:#173c6b;white-space:nowrap}.stats-title{font-size:12px;font-weight:700;color:#284b74;margin:10px 0 7px}.stats-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.stat{background:#f0f5fb;border-radius:8px;text-align:center;padding:9px 3px}.stat-label{display:block;font-size:11px;color:#53677f}.stat-value{display:block;font-size:16px;font-weight:800;margin-top:3px;font-variant-numeric:tabular-nums}.stats-note{font-size:12px;color:#64758b;margin-top:8px}.rule{line-height:1.8;font-size:14px}.rule p{margin:6px 0}.footer{font-size:12px;color:#56677e;line-height:1.7}[hidden]{display:none!important}@media(max-width:520px){.card{padding:15px}.race-grid{grid-template-columns:repeat(4,minmax(0,1fr))}.entry-main strong{font-size:15px}.entry-main small{font-size:12px}.lane{width:40px;height:40px}.entry{gap:9px}.stats-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+.stats-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:6px;
+  margin-top:8px;
+}
+.stat{
+  min-width:0;
+  text-align:center;
+  background:#f0f5fc;
+  border-radius:9px;
+  padding:10px 4px;
+}
+.stat-label{
+  display:block;
+  font-size:11px;
+  color:#56677e;
+}
+.stat-value{
+  display:block;
+  font-size:16px;
+  font-weight:800;
+  color:#173c6b;
+}
+@media(max-width:520px){
+  .stats-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
 </style>
 </head>
 <body>
@@ -63,26 +94,49 @@ function renderRaceButtons(){
     raceButtons.appendChild(btn);
   }
 }
+
 function addStat(grid,label,value){
-  const box=addText(grid,'div','','stat');
+  const box=document.createElement('div');
+  box.className='stat';
+
   addText(box,'span',label,'stat-label');
   addText(box,'span',value,'stat-value');
+
+  grid.appendChild(box);
 }
+
 function addCourseStats(info,entry,lane){
   const number=String(entry.racer_number??'').trim();
   const racer=racerStats?.racers?.[number];
   const course=racer?.courses?.[String(lane)];
+
   addText(info,'div',`${lane}コース成績（枠なり想定）`,'stats-title');
-  if(!racer){addText(info,'div','期別データなし（登録番号の照合不可・未収録）','stats-note');return;}
-  if(!course||Number(course.starts)===0){addText(info,'div','このコースの進入実績なし（0走）','stats-note');return;}
-  const grid=addText(info,'div','','stats-grid');
+
+  if(!racer){
+    addText(info,'div','期別データなし（登録番号の照合不可・未収録）','stats-note');
+    return;
+  }
+
+  if(!course||Number(course.starts)===0){
+    addText(info,'div','このコースの進入実績なし（0走）','stats-note');
+    return;
+  }
+
+  const grid=document.createElement('div');
+  grid.className='stats-grid';
+  info.appendChild(grid);
+
   addStat(grid,'進入回数',`${course.starts}走`);
   addStat(grid,'1着率',formatRate(course.first_rate));
   addStat(grid,'2連率',formatRate(course.two_rate));
   addStat(grid,'3連率',formatRate(course.three_rate));
-  addText(info,'div',`期別全国勝率：${racer.win_rate??'未取得'} ／ 期別級別：${racer.grade??'未取得'}`,'stats-note');
+
+  addText(info,'div',
+    `期別全国勝率：${racer.win_rate??'未取得'} ／ 期別級別：${racer.grade??'未取得'}`,
+    'stats-note'
+  );
 }
-function showEntries(){
+
   entryCard.hidden=true;entriesBox.replaceChildren();
   const code=venueSelect.value;
   const race=races.find(r=>codeOf(r.venue_code)===code&&Number(r.race_number)===selectedRace);
