@@ -167,3 +167,14 @@ venue_codes = sorted({
 })
 print("会場コード:", venue_codes)
 print("会場数:", len(venue_codes))
+
+
+# 番組表ファイルの末尾を確認
+print("=== 番組表ファイル末尾調査 ===")
+
+for filename, content in files.items():
+    print("ファイル名:", filename)
+    print("末尾30行:")
+
+    for line in content.splitlines()[-30:]:
+        print(repr(line[:150]))
