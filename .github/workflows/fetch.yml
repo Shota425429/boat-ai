@@ -27,7 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install boatrace-lzh
 
-      -
       - name: Fetch race data
         run: python scripts/fetch_entries.py
 
