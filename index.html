@@ -126,8 +126,16 @@ function addCourseStats(info,entry,lane){
   grid.className='stats-grid';
   info.appendChild(grid);
 
+  
+  const validRate=value=>value!==null&&value!==undefined&&value!==''&&Number.isFinite(Number(value));
+  const first=Number(course.first_rate);
+  const two=Number(course.two_rate);
+  const three=Number(course.three_rate);
+
   addStat(grid,'進入回数',`${course.starts}走`);
   addStat(grid,'1着率',formatRate(course.first_rate));
+  addStat(grid,'2着率',validRate(course.first_rate)&&validRate(course.two_rate)?formatRate(Math.max(0,two-first)):'—');
+  addStat(grid,'3着率',validRate(course.two_rate)&&validRate(course.three_rate)?formatRate(Math.max(0,three-two)):'—');
   addStat(grid,'2連率',formatRate(course.two_rate));
   addStat(grid,'3連率',formatRate(course.three_rate));
 
