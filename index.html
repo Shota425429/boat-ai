@@ -137,6 +137,8 @@ function addCourseStats(info,entry,lane){
   );
 }
 
+function showEntries(){
+
   entryCard.hidden=true;entriesBox.replaceChildren();
   const code=venueSelect.value;
   const race=races.find(r=>codeOf(r.venue_code)===code&&Number(r.race_number)===selectedRace);
