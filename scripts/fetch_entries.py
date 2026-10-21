@@ -277,55 +277,62 @@ for filename, content in files.items():
         venue_lines = lines[start:end]
         venue_text = "\n".join(venue_lines)
        
-# 会場ごとの正しいコード
-venue_codes = {
-    "唐津": "23", "若松": "20", "徳山": "18",
-    "宮島": "17", "児島": "16", "鳴門": "14",
-    "尼崎": "13", "住之江": "12", "びわこ": "11",
-    "津": "09", "浜名湖": "06", "江戸川": "03",
-    "桐生": "01"
-}
+        # 会場名と正しいコードの対応
+        venue_codes = {
+            "唐津": "23",
+            "若松": "20",
+            "徳山": "18",
+            "宮島": "17",
+            "児島": "16",
+            "鳴門": "14",
+            "尼崎": "13",
+            "住之江": "12",
+            "びわこ": "11",
+            "津": "09",
+            "浜名湖": "06",
+            "江戸川": "03",
+            "桐生": "01",
+        }
 
-# 全角・半角スペースを除去して会場名を判定
-header = venue_lines[0].replace("\u3000", "").replace(" ", "")
-venue_name = next(
-    (name for name in venue_codes
-     if header.startswith("ボートレース" + name)),
-    None
-)
+        # 全角・半角スペースを除去して会場を判定
+        header = venue_lines[0].replace("\u3000", "").replace(" ", "")
 
-if venue_name is None:
-    raise ValueError(f"会場を判定できません: {venue_lines[0]}")
-
-# 既存の解析ライブラリで出走表を取得
-parsed = ScheduleParser().parse({
-    f"venue_{n + 1}.TXT": venue_text
-})
-
-# 会場コードを正しい番号に補正
-correct_code = venue_codes[venue_name]
-
-for race in parsed.races:
-    race.venue_code = correct_code
-
-for entry in parsed.entries:
-    entry.venue_code = correct_code
-
-
-        all_races.extend(parsed.races)
-        all_entries.extend(parsed.entries)
-
-        codes = {r.venue_code for r in parsed.races}
-        all_venues.update(codes)
-
-        print(
-            f"会場{n + 1}:",
-            venue_lines[0].strip(),
-            "レース数:", len(parsed.races),
-            "出走数:", len(parsed.entries),
-            "会場コード:", sorted(codes)
+        venue_name = next(
+            (
+                name for name in venue_codes
+                if header.startswith("ボートレース" + name)
+            ),
+            None
         )
 
+        if venue_name is None:
+            raise ValueError(f"会場を判定できません: {venue_lines[0]}")
+
+        # 分割した番組表を解析
+        parsed = ScheduleParser().parse({
+            f"venue_{n + 1}.TXT": venue_text
+        })
+
+        # 会場コードを補正
+        correct_code = venue_codes[venue_name]
+
+        for race in parsed.races:
+            race.venue_code = correct_code
+
+        for entry in parsed.entries:
+            entry.venue_code = correct_code
+
+        # 解析結果を集計
+        all_races.extend(parsed.races)
+        all_entries.extend(parsed.entries)
+        all_venues.add(correct_code)
+
+        print(
+            f"会場{n + 1}: {venue_name}",
+            "レース数:", len(parsed.races),
+            "出走数:", len(parsed.entries),
+            "会場コード:", correct_code
+        )
 print("=== 全国解析の合計 ===")
 print("会場数:", len(all_venues))
 print("レース数:", len(all_races))
