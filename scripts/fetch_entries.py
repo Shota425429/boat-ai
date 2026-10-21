@@ -12,6 +12,13 @@ today = datetime.now(JST).date()
 downloader = LzhDownloader(cache_dir="./cache")
 files = downloader.download(today, "schedule")
 
+# ダウンロードしたファイルを確認
+print("取得ファイル数:", len(files))
+
+for file in files:
+    print("取得ファイル:", file)
+
+
 if not files:
     raise RuntimeError("本日の番組表を取得できませんでした")
 
