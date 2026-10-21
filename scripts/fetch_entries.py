@@ -211,3 +211,12 @@ for name, member in inspect.getmembers(
 
 print("=== parse の説明 ===")
 print(inspect.getdoc(ScheduleParser.parse))
+
+
+# ScheduleParser の内部処理を調査
+print("=== ScheduleParser.parse の内部コード ===")
+
+try:
+    print(inspect.getsource(ScheduleParser.parse))
+except Exception as e:
+    print("内部コードを取得できませんでした:", e)
