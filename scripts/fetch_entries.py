@@ -128,3 +128,22 @@ output_file.write_text(
 )
 
 print(f"出走表データを保存しました：{len(race_list)}レース")
+
+
+# ダウンロード機能の調査
+import inspect
+
+print("=== LzhDownloader の機能一覧 ===")
+
+for name, member in inspect.getmembers(
+    LzhDownloader, predicate=callable
+):
+    if not name.startswith("_"):
+        try:
+            signature = inspect.signature(member)
+            print(f"{name}{signature}")
+        except (TypeError, ValueError):
+            print(name)
+
+print("=== download の説明 ===")
+print(inspect.getdoc(LzhDownloader.download))
