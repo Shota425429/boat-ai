@@ -194,3 +194,20 @@ for filename, content in files.items():
 
     for line in content.splitlines()[-30:]:
         print(repr(line[:150]))
+
+
+# ScheduleParser の解析機能を調査
+print("=== ScheduleParser の機能一覧 ===")
+
+for name, member in inspect.getmembers(
+    ScheduleParser, predicate=callable
+):
+    if not name.startswith("_"):
+        try:
+            signature = inspect.signature(member)
+            print(f"{name}{signature}")
+        except (TypeError, ValueError):
+            print(name)
+
+print("=== parse の説明 ===")
+print(inspect.getdoc(ScheduleParser.parse))
