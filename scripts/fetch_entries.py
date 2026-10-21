@@ -213,20 +213,19 @@ print("=== parse の説明 ===")
 print(inspect.getdoc(ScheduleParser.parse))
 
 
-# ScheduleParser の内部処理を調査
+# ScheduleParser.parse の内部コードを調査
 print("=== ScheduleParser.parse の内部コード ===")
 
 try:
     print(inspect.getsource(ScheduleParser.parse))
+except Exception as e:
+    print("内部コードを取得できませんでした:", e)
 
 
-# 1ファイルの解析処理を確認
+# _parse_single_file の内部コードを調査
 print("=== _parse_single_file の内部コード ===")
 
 try:
     print(inspect.getsource(ScheduleParser._parse_single_file))
-except Exception as e:
-    print("内部コードを取得できませんでした:", e)
-
 except Exception as e:
     print("内部コードを取得できませんでした:", e)
