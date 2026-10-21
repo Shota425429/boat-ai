@@ -253,5 +253,51 @@ print("=== _parse_single_file の内部コード ===")
 
 try:
     print(inspect.getsource(ScheduleParser._parse_single_file))
+
+
+# 13会場を分割して解析するテスト
+print("=== 全国13会場の解析テスト ===")
+
+all_races = []
+all_entries = []
+all_venues = set()
+
+for filename, content in files.items():
+    lines = content.splitlines()
+
+    starts = [
+        i for i, line in enumerate(lines)
+        if line.startswith("ボートレース")
+    ]
+
+    for n, start in enumerate(starts):
+        end = starts[n + 1] if n + 1 < len(starts) else len(lines)
+
+        venue_lines = lines[start:end]
+        venue_text = "\n".join(venue_lines)
+
+        parsed = ScheduleParser().parse({
+            f"venue_{n + 1}.TXT": venue_text
+        })
+
+        all_races.extend(parsed.races)
+        all_entries.extend(parsed.entries)
+
+        codes = {r.venue_code for r in parsed.races}
+        all_venues.update(codes)
+
+        print(
+            f"会場{n + 1}:",
+            venue_lines[0].strip(),
+            "レース数:", len(parsed.races),
+            "出走数:", len(parsed.entries),
+            "会場コード:", sorted(codes)
+        )
+
+print("=== 全国解析の合計 ===")
+print("会場数:", len(all_venues))
+print("レース数:", len(all_races))
+print("出走数:", len(all_entries))
+
 except Exception as e:
     print("内部コードを取得できませんでした:", e)
