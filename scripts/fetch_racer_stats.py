@@ -94,6 +94,9 @@ def main():
         raise RuntimeError('圧縮ファイルからデータを取得できませんでした')
     racers = {}
     for line in lines:
+        
+        if len(line) != 416:
+            continue
         number, data = parse_record(line)
         if number in racers:
             raise ValueError(f'登録番号が重複しています: {number}')
