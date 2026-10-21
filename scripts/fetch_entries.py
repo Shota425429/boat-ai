@@ -257,7 +257,8 @@ try:
 
 # 13会場を分割して解析するテスト
 print("=== 全国13会場の解析テスト ===")
-
+except Exception as e:
+    print("内部コードを取得できませんでした:", e)
 all_races = []
 all_entries = []
 all_venues = set()
