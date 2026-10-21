@@ -39,6 +39,32 @@ output = {
     "status": "ok"
 }
 
+
+# 全国番組表を会場ごとに分割できるかテスト
+import re
+
+print("=== 会場分割テスト ===")
+
+for filename, content in files.items():
+    lines = content.splitlines()
+
+    starts = [
+        i for i, line in enumerate(lines)
+        if line.startswith("ボートレース")
+    ]
+
+    print("検出した会場数:", len(starts))
+
+    for n, start in enumerate(starts):
+        end = starts[n + 1] if n + 1 < len(starts) else len(lines)
+        venue_lines = lines[start:end]
+
+        print(
+            f"会場{n + 1}:",
+            venue_lines[0].strip(),
+            "行数:", len(venue_lines)
+        )
+
 Path("data").mkdir(exist_ok=True)
 Path("data/schedule_status.json").write_text(
     json.dumps(output, ensure_ascii=False, indent=2),
