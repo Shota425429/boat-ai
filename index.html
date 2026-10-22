@@ -198,6 +198,7 @@ function analyzeRace(race){
   return '🟡 半本線（暫定）：1コースの信頼度や相手関係が混戦';
 }
 
+
 function renderCourseRanking(race){
   const ranking=document.getElementById('course-ranking');
   ranking.replaceChildren();
@@ -224,20 +225,19 @@ function renderCourseRanking(race){
     const two=course.two_rate;
     const three=course.three_rate;
 
-    if([first,two,three].some(v=>v==null||v===''||!Number.isFinite(Number(v))))continue;
+    if([first,two,three].some(
+      v=>v==null||v===''||!Number.isFinite(Number(v))
+    ))continue;
 
-    const secondRate=Math.max(0,Number(two)-Number(first));
-    
-    // 進入回数が少ない場合は評価を控えめにする
     const starts=Number(course.starts);
-    const reliability=starts/(starts+20);
+    const secondRate=Math.max(0,Number(two)-Number(first));
+    const thirdRate=Math.max(0,Number(three)-Number(two));
 
+    // 進入回数による暫定補正
+    const reliability=starts/(starts+20);
     const secondScore=secondRate*reliability;
     const thirdScore=thirdRate*reliability;
 
-    const thirdRate=Math.max(0,Number(three)-Number(two));
-
-   
     candidates.push({
       lane,
       name:entry.name||'選手名未取得',
@@ -247,6 +247,7 @@ function renderCourseRanking(race){
       secondScore,
       thirdScore
     });
+  }
 
   if(candidates.length===0){
     ranking.textContent='ランキング判定保留：比較できるコース成績がありません';
@@ -260,22 +261,31 @@ function renderCourseRanking(race){
     heading.style.margin='10px 0 5px';
     heading.textContent=title;
     ranking.appendChild(heading);
-  
+
     const scoreField=field==='secondRate'?'secondScore':'thirdScore';
-    const sorted=[...candidates].sort((a,b)=>b[scoreField]-a[scoreField]);
+    const sorted=[...candidates].sort(
+      (a,b)=>b[scoreField]-a[scoreField]
+    );
 
-    
-for(const [index,item] of sorted.entries()){
-  const line=document.createElement('div');
-  line.style.padding='5px 0';
+    for(const [index,item] of sorted.entries()){
+      const line=document.createElement('div');
+      line.style.padding='5px 0';
 
-  const score=item[scoreField];
-  const level=item.starts>=30?'比較的多い':item.starts>=20?'やや少ない':'少ない';
+      const score=item[scoreField];
+      const level=item.starts>=30
+        ?'比較的多い'
+        :item.starts>=20
+          ?'やや少ない'
+          :'少ない';
 
-  line.textContent=`${index+1}位：${item.lane}号艇 ${item.name} ／ 実績${item[field].toFixed(1)}% ／ 補正${score.toFixed(1)}点（${item.starts}走・${level}）`;
+      line.textContent=
+        `${index+1}位：${item.lane}号艇 ${item.name} ／ `+
+        `実績${item[field].toFixed(1)}% ／ `+
+        `補正${score.toFixed(1)}点（${item.starts}走・${level}）`;
 
-  ranking.appendChild(line);
-}
+      ranking.appendChild(line);
+    }
+  }
 
   addRanking('【2着候補ランキング・期別コース実績】','secondRate');
   addRanking('【3着候補ランキング・期別コース実績】','thirdRate');
@@ -286,6 +296,13 @@ for(const [index,item] of sorted.entries()){
     note.textContent='※コース実績不足の艇はランキング対象外です。';
     ranking.appendChild(note);
   }
+
+  const caution=document.createElement('div');
+  caution.style.marginTop='12px';
+  caution.style.fontSize='12px';
+  caution.style.color='#56677e';
+  caution.textContent='※補正スコアは過去の着順率と進入回数による試算値で、今回のレースの的中確率ではありません。';
+  ranking.appendChild(caution);
 
   ranking.hidden=false;
 }
