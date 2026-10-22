@@ -146,6 +146,57 @@ function addCourseStats(info,entry,lane){
   );
 }
 
+function analyzeRace(race){
+  if(!racerStats?.racers){
+    return '🟡 暫定判定不可：期別選手成績がありません';
+  }
+
+  const byLane=new Map(
+    race.entries.map(entry=>[Number(entry.boat_number),entry])
+  );
+
+  function courseData(lane){
+    const entry=byLane.get(lane);
+    if(!entry)return null;
+
+    const number=String(entry.racer_number??'').trim();
+    const course=racerStats.racers[number]?.courses?.[String(lane)];
+
+    if(!course||Number(course.starts)<10)return null;
+
+    const first=Number(course.first_rate);
+    const two=Number(course.two_rate);
+    const three=Number(course.three_rate);
+
+    if(![first,two,three].every(Number.isFinite))return null;
+    return {first,two,three};
+  }
+
+  const c1=courseData(1);
+  const c2=courseData(2);
+  const c3=courseData(3);
+  const c4=courseData(4);
+  const c5=courseData(5);
+  const c6=courseData(6);
+
+  if(!c1||!c2||!c3||!c4||!c5||!c6){
+    return '🟡 暫定判定保留：コース実績10走未満、またはデータ不足の艇があります';
+  }
+
+  const innerSupport=Math.max(c2.three,c3.three);
+  const outerSupport=Math.max(c4.three,c5.three,c6.three);
+
+  if(c1.first>=65&&innerSupport>=55&&outerSupport<35){
+    return '🔴 素直決着型（暫定）：1コースの1着率が高く、内側が相手候補。外側の3連率は低め';
+  }
+
+  if(c1.first>=55&&outerSupport>=35){
+    return '🟢 本筋ヒモ荒れ型（暫定）：1コース逃げを中心に、外側の3着残りを警戒';
+  }
+
+  return '🟡 半本線（暫定）：1コースの信頼度や相手関係が混戦';
+}
+
 function showEntries(){
 
   entryCard.hidden=true;entriesBox.replaceChildren();
@@ -168,6 +219,11 @@ function showEntries(){
     if(racerStats&&lane>=1&&lane<=6)addCourseStats(info,entry,lane);
     row.appendChild(info);addText(row,'span',entry.racer_class,'class');entriesBox.appendChild(row);
   }
+  
+  const analysis=document.getElementById('race-analysis');
+  analysis.textContent=analyzeRace(race);
+  analysis.hidden=false;
+
   entryCard.hidden=false;
   setStatus(label+'：'+race.entries.length+'艇の出走表を表示中'+(racerStats?'（期別コース成績付き）':'（期別成績は未表示）'));
 }
