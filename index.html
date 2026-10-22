@@ -200,6 +200,52 @@ function analyzeRace(race){
 }
 
 
+function renderEscapeAnalysis(race){
+  const box=document.getElementById('escape-analysis');
+  box.hidden=true;
+
+  const entry=race.entries.find(
+    e=>Number(e.boat_number)===1
+  );
+
+  if(!entry||!racerStats?.racers){
+    box.textContent='イン逃げ評価：データ不足';
+    box.hidden=false;
+    return;
+  }
+
+  const number=String(entry.racer_number??'').trim();
+  const course=racerStats.racers[number]?.courses?.['1'];
+
+  if(!course||Number(course.starts)<10){
+    box.textContent='イン逃げ評価：1コース実績不足（10走未満）';
+    box.hidden=false;
+    return;
+  }
+
+  const starts=Number(course.starts);
+  const first=Number(course.first_rate);
+
+  if(!Number.isFinite(first)){
+    box.textContent='イン逃げ評価：1着率データ不足';
+    box.hidden=false;
+    return;
+  }
+
+  let level='低め';
+  if(first>=70)level='高い';
+  else if(first>=55)level='標準以上';
+  else if(first>=40)level='やや不安';
+
+  box.textContent=
+    `【イン逃げ信頼度・暫定】${level} ／ `+
+    `1号艇 ${entry.name||'選手名未取得'} ／ `+
+    `1コース1着率 ${first.toFixed(1)}%（${starts}走）`+
+    ` ※期別実績による評価。本番の逃げ確率ではありません。`;
+
+  box.hidden=false;
+}
+
 function renderCourseRanking(race){
   const ranking=document.getElementById('course-ranking');
   ranking.replaceChildren();
