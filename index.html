@@ -227,16 +227,26 @@ function renderCourseRanking(race){
     if([first,two,three].some(v=>v==null||v===''||!Number.isFinite(Number(v))))continue;
 
     const secondRate=Math.max(0,Number(two)-Number(first));
+    
+    // 進入回数が少ない場合は評価を控えめにする
+    const starts=Number(course.starts);
+    const reliability=starts/(starts+20);
+
+    const secondScore=secondRate*reliability;
+    const thirdScore=thirdRate*reliability;
+
     const thirdRate=Math.max(0,Number(three)-Number(two));
 
+   
     candidates.push({
       lane,
       name:entry.name||'選手名未取得',
-      starts:Number(course.starts),
+      starts,
       secondRate,
-      thirdRate
+      thirdRate,
+      secondScore,
+      thirdScore
     });
-  }
 
   if(candidates.length===0){
     ranking.textContent='ランキング判定保留：比較できるコース成績がありません';
@@ -250,8 +260,9 @@ function renderCourseRanking(race){
     heading.style.margin='10px 0 5px';
     heading.textContent=title;
     ranking.appendChild(heading);
-
-    const sorted=[...candidates].sort((a,b)=>b[field]-a[field]);
+  
+    const scoreField=field==='secondRate'?'secondScore':'thirdScore';
+    const sorted=[...candidates].sort((a,b)=>b[scoreField]-a[scoreField]);
 
     for(const [index,item] of sorted.entries()){
       const line=document.createElement('div');
