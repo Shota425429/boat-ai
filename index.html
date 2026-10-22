@@ -264,13 +264,18 @@ function renderCourseRanking(race){
     const scoreField=field==='secondRate'?'secondScore':'thirdScore';
     const sorted=[...candidates].sort((a,b)=>b[scoreField]-a[scoreField]);
 
-    for(const [index,item] of sorted.entries()){
-      const line=document.createElement('div');
-      line.style.padding='5px 0';
-      line.textContent=`${index+1}位：${item.lane}号艇 ${item.name} ／ ${item[field].toFixed(1)}%（${item.starts}走）`;
-      ranking.appendChild(line);
-    }
-  }
+    
+for(const [index,item] of sorted.entries()){
+  const line=document.createElement('div');
+  line.style.padding='5px 0';
+
+  const score=item[scoreField];
+  const level=item.starts>=30?'比較的多い':item.starts>=20?'やや少ない':'少ない';
+
+  line.textContent=`${index+1}位：${item.lane}号艇 ${item.name} ／ 実績${item[field].toFixed(1)}% ／ 補正${score.toFixed(1)}点（${item.starts}走・${level}）`;
+
+  ranking.appendChild(line);
+}
 
   addRanking('【2着候補ランキング・期別コース実績】','secondRate');
   addRanking('【3着候補ランキング・期別コース実績】','thirdRate');
