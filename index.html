@@ -198,6 +198,82 @@ function analyzeRace(race){
   return '🟡 半本線（暫定）：1コースの信頼度や相手関係が混戦';
 }
 
+function renderCourseRanking(race){
+  const ranking=document.getElementById('course-ranking');
+  ranking.replaceChildren();
+  ranking.hidden=true;
+
+  if(!racerStats?.racers){
+    ranking.textContent='ランキング判定不可：期別選手成績がありません';
+    ranking.hidden=false;
+    return;
+  }
+
+  const candidates=[];
+
+  for(const entry of race.entries){
+    const lane=Number(entry.boat_number);
+    if(lane<2||lane>6)continue;
+
+    const number=String(entry.racer_number??'').trim();
+    const course=racerStats.racers[number]?.courses?.[String(lane)];
+
+    if(!course||Number(course.starts)<10)continue;
+
+    const first=course.first_rate;
+    const two=course.two_rate;
+    const three=course.three_rate;
+
+    if([first,two,three].some(v=>v==null||v===''||!Number.isFinite(Number(v))))continue;
+
+    const secondRate=Math.max(0,Number(two)-Number(first));
+    const thirdRate=Math.max(0,Number(three)-Number(two));
+
+    candidates.push({
+      lane,
+      name:entry.name||'選手名未取得',
+      starts:Number(course.starts),
+      secondRate,
+      thirdRate
+    });
+  }
+
+  if(candidates.length===0){
+    ranking.textContent='ランキング判定保留：比較できるコース成績がありません';
+    ranking.hidden=false;
+    return;
+  }
+
+  function addRanking(title,field){
+    const heading=document.createElement('div');
+    heading.style.fontWeight='700';
+    heading.style.margin='10px 0 5px';
+    heading.textContent=title;
+    ranking.appendChild(heading);
+
+    const sorted=[...candidates].sort((a,b)=>b[field]-a[field]);
+
+    for(const [index,item] of sorted.entries()){
+      const line=document.createElement('div');
+      line.style.padding='5px 0';
+      line.textContent=`${index+1}位：${item.lane}号艇 ${item.name} ／ ${item[field].toFixed(1)}%（${item.starts}走）`;
+      ranking.appendChild(line);
+    }
+  }
+
+  addRanking('【2着候補ランキング・期別コース実績】','secondRate');
+  addRanking('【3着候補ランキング・期別コース実績】','thirdRate');
+
+  if(candidates.length<5){
+    const note=document.createElement('div');
+    note.style.marginTop='10px';
+    note.textContent='※コース実績不足の艇はランキング対象外です。';
+    ranking.appendChild(note);
+  }
+
+  ranking.hidden=false;
+}
+
 function showEntries(){
 
   entryCard.hidden=true;entriesBox.replaceChildren();
@@ -224,7 +300,7 @@ function showEntries(){
   const analysis=document.getElementById('race-analysis');
   analysis.textContent=analyzeRace(race);
   analysis.hidden=false;
-
+  renderCourseRanking(race);
   entryCard.hidden=false;
   setStatus(label+'：'+race.entries.length+'艇の出走表を表示中'+(racerStats?'（期別コース成績付き）':'（期別成績は未表示）'));
 }
