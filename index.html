@@ -381,6 +381,7 @@ function showEntries(){
   analysis.textContent=analyzeRace(race);
   analysis.hidden=false;
   renderCourseRanking(race);
+  renderEscapeAnalysis(race);
   entryCard.hidden=false;
   setStatus(label+'：'+race.entries.length+'艇の出走表を表示中'+(racerStats?'（期別コース成績付き）':'（期別成績は未表示）'));
 }
