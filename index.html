@@ -246,6 +246,73 @@ function renderEscapeAnalysis(race){
   box.hidden=false;
 }
 
+function renderAttackAnalysis(race){
+  const box=document.getElementById('escape-analysis');
+
+  // 前に表示したイン逃げ評価は残す
+  const heading=document.createElement('div');
+  heading.style.fontWeight='700';
+  heading.style.marginTop='12px';
+  heading.textContent='【2〜4号艇の攻撃力・期別コース実績】';
+  box.appendChild(heading);
+
+  if(!racerStats?.racers){
+    const note=document.createElement('div');
+    note.textContent='攻撃力分析：選手成績データなし';
+    box.appendChild(note);
+    return;
+  }
+
+  for(let lane=2;lane<=4;lane++){
+    const entry=race.entries.find(
+      e=>Number(e.boat_number)===lane
+    );
+
+    if(!entry)continue;
+
+    const number=String(entry.racer_number??'').trim();
+    const course=racerStats.racers[number]?.courses?.[String(lane)];
+
+    const line=document.createElement('div');
+    line.style.padding='5px 0';
+
+    if(!course||Number(course.starts)<10){
+      line.textContent=`${lane}号艇：コース実績不足`;
+      box.appendChild(line);
+      continue;
+    }
+
+    const first=course.first_rate;
+    const starts=Number(course.starts);
+
+    if(first==null||first===''||!Number.isFinite(Number(first))){
+      line.textContent=`${lane}号艇：1着率データ不足`;
+      box.appendChild(line);
+      continue;
+    }
+
+    const rate=Number(first);
+
+    let level='低め';
+    if(rate>=20)level='高め';
+    else if(rate>=10)level='警戒';
+    else if(rate>=5)level='やや警戒';
+
+    line.textContent=
+      `${lane}号艇 ${entry.name||'選手名未取得'} ／ `+
+      `${lane}コース1着率 ${rate.toFixed(1)}% `+
+      `（${starts}走）／ 攻撃力：${level}`;
+
+    box.appendChild(line);
+  }
+
+  const note=document.createElement('div');
+  note.style.fontSize='12px';
+  note.style.marginTop='8px';
+  note.textContent='※攻撃力はコース別1着率による暫定評価。決まり手・節間気配・展示STは反映していません。';
+  box.appendChild(note);
+}
+
 function renderCourseRanking(race){
   const ranking=document.getElementById('course-ranking');
   ranking.replaceChildren();
