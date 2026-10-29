@@ -387,7 +387,8 @@ function renderEscapeOverall(race){
   note.textContent='※期別コース実績による暫定比較です。実際の逃げ確率ではなく、決まり手・進入変化・節間気配などは未反映です。';
   box.appendChild(note);
 }
-
+  
+function renderCourseRanking(race){
   const ranking=document.getElementById('course-ranking');
   ranking.replaceChildren();
   ranking.hidden=true;
