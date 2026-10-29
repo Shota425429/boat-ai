@@ -313,7 +313,81 @@ function renderAttackAnalysis(race){
   box.appendChild(note);
 }
 
-function renderCourseRanking(race){
+
+function renderEscapeOverall(race){
+  const box=document.getElementById('escape-analysis');
+
+  if(!box||!racerStats?.racers)return;
+
+  function getFirstRate(lane){
+    const entry=race.entries.find(
+      e=>Number(e.boat_number)===lane
+    );
+
+    if(!entry)return null;
+
+    const number=String(entry.racer_number??'').trim();
+    const course=racerStats.racers[number]?.courses?.[String(lane)];
+
+    if(!course||Number(course.starts)<10)return null;
+
+    const value=course.first_rate;
+    if(value==null||value===''||!Number.isFinite(Number(value))){
+      return null;
+    }
+
+    return Number(value);
+  }
+
+  const inner=getFirstRate(1);
+  const attacks=[2,3,4].map(lane=>({
+    lane,
+    rate:getFirstRate(lane)
+  }));
+
+  const heading=document.createElement('div');
+  heading.style.fontWeight='700';
+  heading.style.marginTop='12px';
+  heading.textContent='【イン逃げ総合判定・暫定】';
+  box.appendChild(heading);
+
+  const result=document.createElement('div');
+  result.style.padding='6px 0';
+
+  if(inner===null||attacks.some(a=>a.rate===null)){
+    result.textContent='判定保留：1〜4号艇のコース実績が不足しています。';
+    box.appendChild(result);
+    return;
+  }
+
+  const strongest=attacks.reduce(
+    (best,current)=>current.rate>best.rate?current:best
+  );
+
+  let evaluation='混戦・イン逃げ慎重';
+  if(inner>=70&&strongest.rate<10){
+    evaluation='イン逃げ有力・相手の攻めは比較的弱め';
+  }else if(inner>=55&&strongest.rate<20){
+    evaluation='イン逃げ中心・相手の攻めに注意';
+  }else if(inner>=55){
+    evaluation='イン逃げ中心だが攻撃力の高い相手あり';
+  }
+
+  result.textContent=
+    `${evaluation} ／ `+
+    `1号艇1コース1着率 ${inner.toFixed(1)}% ／ `+
+    `最大の攻撃候補：${strongest.lane}号艇 `+
+    `（${strongest.lane}コース1着率 ${strongest.rate.toFixed(1)}%）`;
+
+  box.appendChild(result);
+
+  const note=document.createElement('div');
+  note.style.fontSize='12px';
+  note.style.marginTop='6px';
+  note.textContent='※期別コース実績による暫定比較です。実際の逃げ確率ではなく、決まり手・進入変化・節間気配などは未反映です。';
+  box.appendChild(note);
+}
+
   const ranking=document.getElementById('course-ranking');
   ranking.replaceChildren();
   ranking.hidden=true;
